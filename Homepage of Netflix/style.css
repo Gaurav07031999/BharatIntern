@@ -1,0 +1,144 @@
+
+body{
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size:  1550px 700px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+nav .img img{
+    width: 17%;
+    margin-top: -20px;
+}
+nav .btn{
+    display: flex;
+    margin-top: 20px;
+
+}
+.btn .eng{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    font-size: 19px;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    margin-inline: 22px;
+    transition: all ease 0.3s;
+}
+.btn .eng:hover{
+    background-color: black;
+}
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(224, 16, 16);
+    border-radius: 3px;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border: none;
+    transition: all ease 0.3s;
+}
+.btn .sign:hover{
+    background-color: rgb(160, 11, 11);
+}
+
+.main{
+    text-align: center;
+}
+.main h1{
+    opacity: 1;
+    font-size: 60px;
+    padding-top: 170px;
+}
+.main h3{
+    font-size: 30px; 
+    margin-top: -30px;
+}
+.main p{
+    font-size: 22px;
+    margin-top: -20px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    margin-right: 10px;
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: rgb(30, 30, 30);
+    opacity: 0.5;
+    border: 1px solid white;
+}
+::placeholder {
+    color: white;
+  }
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 66px;
+    margin-top: 160px;
+    margin-bottom: -150px;
+    border-top: 4px solid gray;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 27px;
+}
+.first img{
+   width: 40%;
+}
+.first .img4{
+    margin-bottom: 100px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    border-top: 4px solid gray;
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    width: 1100px;
+    height: 80px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: left;
+    border: none;
+}
+.footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 44px;
+    border-top: 4px solid gray;
+}
